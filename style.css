@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(image/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.row h1 {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    margin-top: 50px;
+}
+.row h3 {
+    text-align: center;
+    color: rgb(216, 212, 212);
+    font-weight: 200;
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+.row h3 a{
+    text-decoration: none;
+    color: rgb(216, 212, 212);
+    font-weight: 400;
+}
+.row h3 a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.row1 img {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: -5px;
+}
+.row2 {
+    text-align: center;
+}
+.row2 .container {
+    background: white;
+}
+.row2 h1 {
+    padding-top: 50px;
+    font-weight: 600;
+   font-size: 1.8rem;
+}
+.row2 h2 {
+    height: 1px;
+    width: 100px;
+    background: rgb(155, 154, 154);
+    display: inline-block;
+}
+.row2 h3 {
+    font-size: .9em;
+    font-weight: 400;
+    color: rgb(158, 158, 158);
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+}
+.row2 p {
+    background: #F4F4F4;
+    padding: 50px;
+    text-align: justify;
+    color: rgb(107, 107, 107);
+}
+.row2 p:last-child{
+    margin-top: -50px;
+}
+
+
+
+/* sdgfj            */
+.row3 .container {
+    background: #1E1F23;
+    padding: 7% 0;
+}
+.wrapper {
+    background: #121315;
+    width: 86%;
+    margin: 0 auto;
+}
+.wrapper h1 {
+    color: white;
+}
+.wrapper h2 {
+    height: 1px;
+    width: 100px;
+    background: rgb(155, 154, 154);
+    display: inline-block;
+    margin: 10px 0;
+}
+.wrapper h3 {
+    color: rgb(88, 88, 88);
+}
+.wrapper img {
+    max-width: 100%;
+    margin-bottom: -7px;
+}
+.img1, .img2, .img3, .img4 {
+    max-width: 50%;
+    float: left;
+}
+
+
+
+
+/* jsdfhsdj sdjfuu */
+.row4 .container {
+    background: #F4F4F4;
+}
+.row4 img {
+    max-width: 100%;
+    margin-bottom: -7px;
+}
+.row41 .left, .row42 .left, .row43 .left{
+    width: 50%;
+    float: left;
+}
+.row41 .right, .row42 .right, .row43 .right{
+    width: 50%;
+    float: right;
+}
+.row4 h1{
+    padding: 50px 30px;
+    font-size: 1.6em;
+}
+.row4 p {
+    padding: 0 30px;
+    line-height: 1.8;
+}
+.row42 {
+    direction: rtl;
+    background: #1E1F23;
+}
+.row42 h1 {
+    padding: 50px 30px;
+    color: white;
+    font-size: 1.6em;
+}
+.row42 p {
+    padding: 0 30px;
+    color: rgb(102, 102, 102);
+    line-height: 1.8;
+}
+
+
+
+/* heruyheiu usedrihfu eshrfhsduihfuh esrfsdstgdrgh */
+.social {
+    text-align: center;
+}
+.social ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 30px 10px;
+}
+.social ul li a{
+    text-decoration: none;
+    color: rgb(121, 121, 121);
+    font-size: 30px;
+    display: inline-block;
+}
+.social ul li:hover a, .copyright a:hover{
+    color: rgb(255, 255, 255);
+}
+.copyright {
+    color: rgb(121, 121, 121);
+    text-align: center;
+    padding: 10px 0 30px;
+}
+.copyright a{
+    text-decoration: none;
+    color: rgb(121, 121, 121);
+}
+
+
+
+/*  responsive css ............ */
+@media (max-width:940px) {
+    .row4 img {
+        width: 100%;
+    }
+    .row4 h1 {
+        text-align: justify;
+        padding: 20px 20px;
+    }
+    .row4 p {
+        text-align: justify;
+        padding: 0 20px 10px;
+        line-height: 1.4;
+    }
+}
+@media (max-width:700px) {
+    .row h1 {
+        font-size: 35px;
+    }
+    .row h3 {
+        padding-top: 10px;
+        font-size: 16px;
+    }
+    .img1, .img2, .img3, .img4 {
+        max-width: 100%;
+    }
+    .row41 .left, .row42 .left, .row43 .left{
+        width: 100%;
+    }
+    .row41 .right, .row42 .right, .row43 .right{
+        width: 100%;
+    }
+    .row4 img {
+        width: 100%;
+    }
+    .row4 h1 {
+        text-align: center;
+    }
+    .row4 p {
+        text-align: center;
+        padding: 0 30px 30px;
+    }
+    .social ul li a {
+        font-size: 20px!important;
+    }
+    .copyright {
+        font-size: 14px;
+    }
+}
+
+
